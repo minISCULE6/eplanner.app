@@ -42,12 +42,12 @@
     padding-bottom: 8px;
 }
 .champ-input {
-    margin-bottom: 16px;
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
     position: relative;
 }
-.champ-input input {
+.champ-input input, .indicator {
     transition: 200ms;
     position: relative;
     z-index: 1;
@@ -55,7 +55,7 @@
     width: 100%;
     box-sizing: border-box;
     border: 2px solid #E0DED9;
-    background: #fff;
+    background: transparent;
     border-radius: calc( calc( 4px * 12) / 2);
     height: calc( 4px * 12);
     color: #333330;
@@ -65,19 +65,24 @@
     padding: calc( 4px * 1) calc( 4px * 5);
     outline: none;
 }
+.indicator-flag {
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+}
 .champ-input--composant label {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.25;
     font-weight: 700;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
 }
 .champ-input--message {
-    margin-top: 8px;
+    margin: 2px 0;
     display: grid;
     grid-template-columns: 10fr 1fr;
     color: #E02D2D;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.25;
 }
 .champ-input--message span {

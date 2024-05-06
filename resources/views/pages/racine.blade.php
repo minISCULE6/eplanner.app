@@ -14,7 +14,6 @@
     <link href="{{ asset('assets/css/module.css') }}"  rel="stylesheet">
     <link href="{{ asset('assets/css/state.css') }}"  rel="stylesheet">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
-</head>
 <body>
         @include('pages.composants.barre-navigation')
         @yield('content')
