@@ -14,9 +14,9 @@
                         <input type="email" placeholder="name@work-email.com">
                     </div>
                     <div class="champ-input--message">
-                        <div>
+                        <div class="d-flex align-center justify-center">
                             <span>
-                                <i></i>
+                                <i class="fi fi-rr-exclamation"></i>
                             </span>
                             Le titre de votre profil doit contenir entre 5 et 50 caractères.
                         </div>

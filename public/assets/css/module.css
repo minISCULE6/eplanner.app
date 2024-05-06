@@ -82,8 +82,11 @@
 }
 .champ-input--message span {
     display: inline-flex;
-    margin-right: 10px;
+    margin-right: 5px;
     min-width: 16px;
     width: 16px;
     height: 16px;
+}
+.champ-input--message span i {
+    margin-top: 1px;
 }
